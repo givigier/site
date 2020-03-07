@@ -12,7 +12,7 @@ publishdir = "public"
 author = "Gabriel Givigier"
 title = "Gabriel Givigier - Computer Scientist"
 
-theme = "hugo-goa"
+theme = "custom-hugo-goa"
 
 ## Hugo Built-in Features
 googleAnalytics = ""
@@ -47,8 +47,8 @@ toc = true
 displayrssicon = false
 
 ## Main Menu
-[[menu.main]]
-    name = "blog"
-    weight = 100
-    identifier = "blog"
-    url = "/blog/"
+# [[menu.main]]
+#     name = "blog"
+#     weight = 100
+#     identifier = "blog"
+#     url = "/blog/"
