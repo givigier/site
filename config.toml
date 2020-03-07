@@ -1,0 +1,54 @@
+## Basic Configuration
+
+baseurl = "https://givigier.github.io"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Gabriel Givigier"
+title = "Gabriel Givigier - Computer Scientist"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Gabriel Givigier"
+intro = "Computer Scientist"
+description = "Building awesome products since 2005"
+authorimage = "photo.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = ""
+keywords = "ruby,ruby expert,ruby on rails,ruby on rails expert,js,javascript,javascript expert,software development,computer science, computer scientist,startup,mvp"
+
+## Social Accounts
+[params.social]
+github = "givigier"
+linkedin = "givigier"
+email = "gabriel@givigier.com"
+
+## Extras
+[params.extra]
+copyright = "©2020. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+poweredby = true
+highlightjs = true
+socialmarkup = true
+toc = true
+displayrssicon = false
+
+## Main Menu
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog/"
